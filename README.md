@@ -17,12 +17,28 @@
 - 인사이트 구성 및 분석된 데이터 시각화 환경 구축
 
 ## 🖥️ 프로젝트 결과
-<![구성도_변경이력_1회차_김민경_Ver_1 5](https://github.com/estrellaSia/AWS_3Tier_Infra_Data_Pipeline/assets/127510529/699e000b-a871-4a8f-94d5-20c8d8420475) width="200" height="400"/>
-![Untitled (16)](https://github.com/estrellaSia/AWS_3Tier_Infra_Data_Pipeline/assets/127510529/d6c88abc-e334-4eee-9011-6bf6f37bba8c)
+- 아키텍처
+<img src="https://github.com/estrellaSia/AWS_3Tier_Infra_Data_Pipeline/assets/127510529/699e000b-a871-4a8f-94d5-20c8d8420475">
 
+- 3Tier 구축
+  - Web, WAS, DB 연동 후 도메인과 HTTPS 연결로 서버 접속
+<img src="https://github.com/estrellaSia/AWS_3Tier_Infra_Data_Pipeline/assets/127510529/d6c88abc-e334-4eee-9011-6bf6f37bba8c">
+
+- CI/CD 파이프라인 구축
+  - 기존의 Web, WAS 서버에 롤링 업데이트를 통해 서버 배포
 ![Untitled (17)](https://github.com/estrellaSia/AWS_3Tier_Infra_Data_Pipeline/assets/127510529/e571acf0-64e3-4417-ac1c-b26c901c77b9)
 
-![Untitled (18)](https://github.com/estrellaSia/AWS_3Tier_Infra_Data_Pipeline/assets/127510529/87e50d1e-6290-46fc-b03f-49b5f9aec78e)
+- DB 백업
+  - RDS 스냅샷 생성 자동화
+![Untitled (23)](https://github.com/estrellaSia/AWS_3Tier_Infra_Data_Pipeline/assets/127510529/c7a78c05-b1a1-4f90-8076-972e271c825e)
+  - 백업 복원
 ![Untitled (19)](https://github.com/estrellaSia/AWS_3Tier_Infra_Data_Pipeline/assets/127510529/9f9e1695-e799-4d45-a090-8971e9a61fd3)
+
+- 모니터링
+  - Web, WAS 서버의 CPU 사용량 모니터링
+  - CPU 사용량 75% 이상 시 경보 생성 및 Slack 알람 전송 
 ![Untitled (21)](https://github.com/estrellaSia/AWS_3Tier_Infra_Data_Pipeline/assets/127510529/f192da5a-f5b1-415d-8fb8-03f4118a1d7e)
+
+- 데이터 시각화
+  - Amazon QuidckSight를 통해 분석된 데이터 시각화
 ![Untitled (22)](https://github.com/estrellaSia/AWS_3Tier_Infra_Data_Pipeline/assets/127510529/346b8dd0-deef-4b7b-bfdf-4790bf9e8d70)
