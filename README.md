@@ -17,4 +17,4 @@
 - 인사이트 구성 및 분석된 데이터 시각화 환경 구축
 
 ## 🖥️ 프로젝트 결과
-https://github.com/estrellaSia/AWS_3Tier_Infra_Data_Pipeline/issues/1#issue-2382541799
+![구성도_변경이력_1회차_김민경_Ver_1 5](https://github.com/estrellaSia/AWS_3Tier_Infra_Data_Pipeline/assets/127510529/699e000b-a871-4a8f-94d5-20c8d8420475)
